@@ -22,9 +22,9 @@ Takes user input for hormonal vs non-hormonal, method (IUD, pill, etc.), and ret
 Takes user input for hormonal vs non-hormonal, method (IUD, pill, etc.), any side effects they've struggled with, and returns highest rated contraception that has the lowest similarity scores between selected side effects and average topic score per drug. User inputs the number of reviews they want to see for their recommendation.
 
 *Current iteration (deployed):*
-The current live version takes user input preferences about if the user is open to hormonal and non-hormonal types, method (IUD, pill, etc.), any methods they've tried and don't want to see in their recommendations, any side effects they've struggled with. Then the algorithm returns the method with the lowest cosine similarity to the methods that have a high average side effect score for the selected side effects. 
+The current live version takes user input for hormonal and non-hormonal preferences, method (IUD, pill, etc.), any methods they've tried and don't want to see in their recommendations, and any side effects they've struggled with. The algorithm returns the method with the lowest cosine similarity between selected side effects and average topic score per drug. Links to the drugs.com page and the recommendation page are supplied with the recommendation.
 
-*Working on:*
+*Next Steps:*
 Adding a dropdown for medical history to help with the recommendation.   
 Labeling pill types between progesterone only vs combination to include in the recommendation.   
 Another round of topic modeling.  
